@@ -6,6 +6,7 @@
 *Mở blog trên trình duyệt: 
 - http://localhost:5000/blogs
 - http://localhost:5000/blogs/1
+
 *Xài trong terminal (command prompt của máy):
 - Thêm một blog : curl -X POST -H "Content-Type: application/json" -d "{\"title\": \"Third post\", \"content\":\"Lololo\"}" "http://localhost:5000/posts"
 - Update một blog (không thay đổi comments): curl -X PUT -H "Content-Type: application/json" -d "{\"title\": \"Hello lololol\", \"content\":\"Testing Update\"}" "http://localhost:5000/blogs/1"
